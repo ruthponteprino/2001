@@ -108,8 +108,7 @@ let mostraMano = () => {
 
 let jugadaPC = () => {
   // reseteo el mayor puntaje
-
-  puntajeSeleccionadoPC = 0;
+  //  puntajeSeleccionadoPC = 0;
   let indiceCartaSeleccionada = 0;
   let imagenCartaPC = "";
   // Busco la carta de mayor valor y su imagen
