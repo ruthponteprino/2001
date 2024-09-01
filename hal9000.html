@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAL9000</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <div id="contendor">
+        <header>
+            <div id="titulo">
+                <h1>2001: Odisea en el espacio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="index.html">HAL9000</a></li>
+                    <li><a href="index.html">dados</a></li>
+                    <li><a href="index.html">records</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="apuesta">
+                <h3>Apostar:</h3>
+                <input type="radio" id="5pts" name="puntos" value="5pts">
+                <label for="5pts">5 puntos</label><br>
+                <input type="radio" id="10pts" name="puntos" value="10pts">
+                <label for="10pts">10 puntos</label><br>
+                <input type="radio" id="15pts" name="puntos" value="15pts">
+                <label for="15pts">15 puntos</label><br>
+                <button class="btn-iniciar">Iniciar</button>
+            </div>
+
+            <div id="contenedor-juego">
+                <div id="tablero">
+                    <div class="carta-usuario carta"></div>
+                    <div class="carta-pc carta"></div>
+                </div>
+                <p>Tu Mano</p>
+                <div id="cartas-usuario">
+                    <div class="carta-1 carta" id="carta-mano1"></div>
+                    <div class="carta-2 carta" id="carta-mano2"></div>
+                    <div class="carta-3 carta" id="carta-mano3"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/haljuego.js"></script>
+</body>
+
+</html>
